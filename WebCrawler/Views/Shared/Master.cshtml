@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="jumbotron">
+        <h1>Web Page Crawler</h1>
+        <p>This is a simple web application that retrieves images and text data from a given web page</p>
+    </div>
+    <div class="container">
+        @RenderBody()
+    </div>
+</body>
+</html>
